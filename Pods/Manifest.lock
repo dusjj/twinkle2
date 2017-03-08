@@ -1,0 +1,12 @@
+PODS:
+  - AKTLayout (1.3.0)
+
+DEPENDENCIES:
+  - AKTLayout
+
+SPEC CHECKSUMS:
+  AKTLayout: fc9feb42f5ebecbd0f94bd5f958bfaba47e1de0c
+
+PODFILE CHECKSUM: de9f076d3803bab24d726cd8ae59c70605b38e35
+
+COCOAPODS: 1.2.0

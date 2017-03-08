@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041879335645C68C25A3D08E878720BF /* AKTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45599A0FE2C025DF977960D4A0A93E /* AKTNavigationController.m */; };
+		052B33461D0E12CD9128C3147E88A799 /* AKTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E124B07196BF1DF37787D86B21A66284 /* AKTViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068268E615AB36F9F4D636497D21047A /* AKTNaviPushAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FAD20FE733BAA4EFCFEDF76A075F2D /* AKTNaviPushAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09742DA27C59A11F81A0BD562739A37E /* AKTReferenceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEA203A746648CCB8B9EF186138041B /* AKTReferenceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1E95C85F96D5ED1E78EF989CC4A5CB /* AKTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F399AF43F9490A43933453F299DCE28E /* AKTViewController.m */; };
+		0D695B834AAD9946EEB27314BB046CA6 /* UIView+AKT.h in Headers */ = {isa = PBXBuildFile; fileRef = 871A17571365A585164B725C7840FF3D /* UIView+AKT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100B39303C46DC229E4FE745C3A055E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1A1B23FF10CEB43186E1629F1F10ED7C /* AKTNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD0A3D86DFE5A011FD7EF4FDD219429 /* AKTNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CEF5BC0F569DCC90D22E4D4AEF6F04 /* AKTDismissVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5878220547C30D72E58C5F77914225 /* AKTDismissVCAnimation.m */; };
+		35C84C8F01ECF36F8F7B8923DE226FAC /* UIImageView+AKT.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D534ABC0CCD08AC6E71C7DA6D32B4B2 /* UIImageView+AKT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5EFF5F03A2492FF35B46BCF244459F /* AKTPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB905C3D104C212D56F6D60F23A5762 /* AKTPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FF40B37396EF10A1B022374E600645 /* NSArray+AKTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2A6C11B8A6CAD0739B7E75262C8DD /* NSArray+AKTArray.m */; };
+		5B65E16C081AFF6BC4A835FA8399C90E /* UIView+ViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E24795E196A37B50159F1E4DD706C475 /* UIView+ViewAttribute.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C6F7915B81249FD8057DB4DC4303691 /* NSString+AKTFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A386CAE1FAFA76CEED39230FBAE53 /* NSString+AKTFilePath.m */; };
+		5D88B1AB461309056A0790CAFA681725 /* AKTInteractivePop.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D3923D61492F3FCBFE2A459D0E2DC2 /* AKTInteractivePop.m */; };
+		6A570ACC16AC5D83E9969806D4373F93 /* AKTLayoutShell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BCEA0BAE7308B103A6569FBC73282E /* AKTLayoutShell.m */; };
+		6CF20F20ED06EB9C3AE00391C0C5E8B5 /* UIView+AKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CFC6F9BDF4F5308829F27A2CCEBA6B /* UIView+AKT.m */; };
+		71E92B603591D6E221D9C4055DFFC4A3 /* AKTTouchExtendView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE36C812B5677882D9EB82DCC9A4DC73 /* AKTTouchExtendView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71ED8D74878C66923A7D25935CB17B39 /* AKTAttributeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A256A1A7D041E68A686A031E6B62A51 /* AKTAttributeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74849E4AEF2D5003430D0D9E49B52D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		74AC19A8878BBCC9B7FC37F52F01E379 /* AKTInteractiveDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D15977003A3572F5819B40E67184E6 /* AKTInteractiveDismiss.m */; };
+		7BB02557427EE13E870E172485EC01E2 /* UIImageView+AKT.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0FA5073ECE751F9F2F0F45E68A067 /* UIImageView+AKT.m */; };
+		7DE86D164B727CA61611B78AD18F3B68 /* AKTInteractiveDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5FCA31FBCB7C1F809247B283C9139E /* AKTInteractiveDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DEF1A2F81357C9844231814937F79C7 /* UILabel+Akt.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D7B8F9C7208480DABBBF515FB25D0D /* UILabel+Akt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F7E42494F30A7A8C7E01333C5119EB4 /* AKTNaviPopAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2C43C4878B2C0838B54F9CDAE0ED55 /* AKTNaviPopAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8669E31531058EEF2E116CAAAD3B3AF7 /* AKTNaviPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E8406A867B4089C1C2A765B2A828ED /* AKTNaviPushAnimation.m */; };
+		86FBC33A0FE6F726A189636A6ED39E2E /* UIImage+AKT.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0C250B5482499BD76437536A94608B /* UIImage+AKT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		882BF64D268F9C8A4DF33E78C01276BC /* NSDictionary+AKTDic.h in Headers */ = {isa = PBXBuildFile; fileRef = F63405881FCB1F0F256AE50E15B6D3BD /* NSDictionary+AKTDic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8937FA150EFB6DA15570F28851F799BE /* UILabel+Akt.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5149A5D7A94F14183E97ECE4CA60FE /* UILabel+Akt.m */; };
+		8A69137F7507E1C6A5E92F4055F5E211 /* UIImage+AKT.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC737CC8E94B6EC7B1566D5A2B8368 /* UIImage+AKT.m */; };
+		8C3145526C4EA8A52B6E5E286C154C99 /* NSObject+AKT.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D2CEC9238001D1FB921A59A86CA5B4 /* NSObject+AKT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0437B85CB5C2BD531D23B64B34383B /* AKTLayoutAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 859F6F485FCA4BACAA01E2D60474B358 /* AKTLayoutAttribute.m */; };
+		8E80BDFC4D52B10FA21A27AEC048C5A1 /* AKTInteractivePop.h in Headers */ = {isa = PBXBuildFile; fileRef = 850D931AE6564B1E66B8F25C2CFF0274 /* AKTInteractivePop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F054F03A5306BCE6E739941A7D3DDCD /* UIView+AKTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6167735EBF045D0AF601FDB83D61FDCD /* UIView+AKTLayout.m */; };
+		93648BEFF48C773BA57B8B6D170973E7 /* AKTLayoutShell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5039D4FA97EB9273F4C3734054AE29F0 /* AKTLayoutShell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BC6EB6A155DAED08686C6EA46269F1 /* AKTScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 753A5CA16C8BCD1EE16A748A37A327CB /* AKTScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5AB092585B26B33196BBB709D1A0E94 /* UIView+ViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 26FF6081E423B3E4A5C94391AE057484 /* UIView+ViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AD61D03CF24464BFCE57E64DCFF055 /* AKTDismissVCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 160BE10776B119EE0558621C59EB8696 /* AKTDismissVCAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC607F6D52216AC53FC873CEC3B33419 /* AKTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D58DC12B4B860675372492A94531D690 /* AKTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACDC843BAFA6A559CD8420FE598F3F6D /* NSString+AKTFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EBAA4E50109E1264F48D1E3C262E97 /* NSString+AKTFilePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA82D327B3705C6C4AC109CDB534FCA /* NSObject+AKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FAED13ED7BCE62BE7240DE291B224 /* NSObject+AKT.m */; };
+		B182C63159C425E9A75A0BADDBF0491E /* AKTReferenceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E415C94CA3F9CE5B0D96ECEE185CAA3 /* AKTReferenceConfiguration.m */; };
+		B79BAEC193B682DF3DF1E38542F80DA1 /* AKTCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AACDE4E0D3E3F82C14E35836AC4D2EE /* AKTCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB9C9087713BBCE0FAA748FE883A058D /* AKTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09BAD5844FB9390F4DADA823B37FFC /* AKTNavigationBar.m */; };
+		BD948C2F8FF63CE982AA15A6986FED53 /* AKTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59847CE015D66696A7A6ECF2CA722745 /* AKTScrollView.m */; };
+		BE63E39B36312447D9B898581390B343 /* AKTPresentVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 659D183F4E358DCDE2E01D58018C735B /* AKTPresentVCAnimation.m */; };
+		C217BEE36EA0DF7E8D5D94A2A812C518 /* NSFileManager+AKTFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 941F93EB192478274298C5153A56DADE /* NSFileManager+AKTFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9BD36FBFDA35FD12B2D5EDD93DE578C /* NSFileManager+AKTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA276E7FCD5DA5CC45880867C7E5C1D1 /* NSFileManager+AKTFileManager.m */; };
+		CE0EE5F57D033F6B4A69F8CCB2D9C318 /* AKTPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8114CF6A0410F501AF8C2E4A33548 /* AKTPublic.m */; };
+		D0F58646D717C56F522DEC860B5C87F1 /* AKTImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCEC6B65AC6B1220FFD80410E9AC90E /* AKTImagePicker.m */; };
+		D4F48EBE416F92C8BB7F9EC230E4940C /* NSArray+AKTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D40EA119236009557686716E979786 /* NSArray+AKTArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D788ADED8E141B69CA36C7B5351B522E /* NSDictionary+AKTDic.m in Sources */ = {isa = PBXBuildFile; fileRef = CA70822700953EF56889B743ED7FA195 /* NSDictionary+AKTDic.m */; };
+		DA210861A91E8255490F1110CED36731 /* AKTLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D66395DDC79C59FBAB1A855F42F668 /* AKTLayout-dummy.m */; };
+		DC03FE08294670DD49A875CADC2C5E81 /* AKTLayoutAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B924F94A4EF58E4642AE3AE27B8F07 /* AKTLayoutAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCEE17CF6EA91AE445BBEE90A8BDCCED /* AKTNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 986854597115499852E1FAC1AB8CAA3C /* AKTNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE9B28826828334B7F48B38E62431A21 /* UIView+AKTLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E98E3021E2340CFF4A92889BDE65AEB /* UIView+AKTLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B8B482BC56C47D2D814AD983A48EEB /* Pods-twinkle2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D49A42854F481A283102E94DB23CE /* Pods-twinkle2-dummy.m */; };
+		E23C478511D0CA43C5E09649D2E707F3 /* AKTUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 983EE36C12D323F31F45334B172F184E /* AKTUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33F30FC366A6B4204C3347122A55671 /* AKTTouchExtendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C585FEFF53F629D355A80D40AF106664 /* AKTTouchExtendView.m */; };
+		E55E0E2DF1494231933683A2F19B22CD /* AKTNaviPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B7D8D3D75EF026B365CFEB8A0BCF9 /* AKTNaviPopAnimation.m */; };
+		E582EE161FB2E91D92252AEC6B324244 /* AKTImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 699C27258B2467FE6905A6BA495B393C /* AKTImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6CF0E876380284E849C47F429741707 /* AKTAttributeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5EC869D895AD3E9F5888220FD939F8 /* AKTAttributeItem.m */; };
+		FCF95A846DF271531599E0618BA432DB /* AKTPresentVCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E94262CFC2E5D448A7B181ACC9E4324 /* AKTPresentVCAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAAF86EDEAA384611164F8535EE18AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D010933670F261CBC8CD4AA096159D;
+			remoteInfo = AKTLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0779A01E532693F7B65A8F94DC0E09BF /* Pods-twinkle2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-twinkle2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B2C43C4878B2C0838B54F9CDAE0ED55 /* AKTNaviPopAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTNaviPopAnimation.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTNaviPopAnimation.h; sourceTree = "<group>"; };
+		0B5D49A42854F481A283102E94DB23CE /* Pods-twinkle2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-twinkle2-dummy.m"; sourceTree = "<group>"; };
+		160BE10776B119EE0558621C59EB8696 /* AKTDismissVCAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTDismissVCAnimation.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTDismissVCAnimation.h; sourceTree = "<group>"; };
+		16D40EA119236009557686716E979786 /* NSArray+AKTArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+AKTArray.h"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSArray+AKTArray.h"; sourceTree = "<group>"; };
+		1C5EC869D895AD3E9F5888220FD939F8 /* AKTAttributeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTAttributeItem.m; path = AKTKit/ARC_File/AKTLayout/AKTAttributeItem.m; sourceTree = "<group>"; };
+		1D534ABC0CCD08AC6E71C7DA6D32B4B2 /* UIImageView+AKT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AKT.h"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UIImageView+AKT.h"; sourceTree = "<group>"; };
+		26C8114CF6A0410F501AF8C2E4A33548 /* AKTPublic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTPublic.m; path = AKTKit/ARC_File/AKTPublic.m; sourceTree = "<group>"; };
+		26FF6081E423B3E4A5C94391AE057484 /* UIView+ViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ViewAttribute.h"; path = "AKTKit/MRC_File/UIView+ViewAttribute.h"; sourceTree = "<group>"; };
+		3E98E3021E2340CFF4A92889BDE65AEB /* UIView+AKTLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AKTLayout.h"; path = "AKTKit/ARC_File/AKTLayout/UIView+AKTLayout.h"; sourceTree = "<group>"; };
+		45CFC6F9BDF4F5308829F27A2CCEBA6B /* UIView+AKT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AKT.m"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UIView+AKT.m"; sourceTree = "<group>"; };
+		4AACDE4E0D3E3F82C14E35836AC4D2EE /* AKTCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTCategory.h; path = AKTKit/ARC_File/AKTCategory/AKTCategory.h; sourceTree = "<group>"; };
+		4B50AAFF35D57F3D3FF346E4B4E3C7D0 /* libPods-twinkle2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-twinkle2.a"; path = "libPods-twinkle2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB905C3D104C212D56F6D60F23A5762 /* AKTPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTPublic.h; path = AKTKit/ARC_File/AKTPublic.h; sourceTree = "<group>"; };
+		4BCEC6B65AC6B1220FFD80410E9AC90E /* AKTImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTImagePicker.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTImagePicker.m; sourceTree = "<group>"; };
+		4D9B7D8D3D75EF026B365CFEB8A0BCF9 /* AKTNaviPopAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTNaviPopAnimation.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTNaviPopAnimation.m; sourceTree = "<group>"; };
+		4F9194C650316F304AFD12058BD9BA91 /* Pods-twinkle2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-twinkle2-resources.sh"; sourceTree = "<group>"; };
+		5039D4FA97EB9273F4C3734054AE29F0 /* AKTLayoutShell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTLayoutShell.h; path = AKTKit/ARC_File/AKTLayout/AKTLayoutShell.h; sourceTree = "<group>"; };
+		54D7B8F9C7208480DABBBF515FB25D0D /* UILabel+Akt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Akt.h"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UILabel+Akt.h"; sourceTree = "<group>"; };
+		59847CE015D66696A7A6ECF2CA722745 /* AKTScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTScrollView.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTScrollView.m; sourceTree = "<group>"; };
+		6167735EBF045D0AF601FDB83D61FDCD /* UIView+AKTLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AKTLayout.m"; path = "AKTKit/ARC_File/AKTLayout/UIView+AKTLayout.m"; sourceTree = "<group>"; };
+		62BCEA0BAE7308B103A6569FBC73282E /* AKTLayoutShell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTLayoutShell.m; path = AKTKit/ARC_File/AKTLayout/AKTLayoutShell.m; sourceTree = "<group>"; };
+		659D183F4E358DCDE2E01D58018C735B /* AKTPresentVCAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTPresentVCAnimation.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTPresentVCAnimation.m; sourceTree = "<group>"; };
+		67D15977003A3572F5819B40E67184E6 /* AKTInteractiveDismiss.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTInteractiveDismiss.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTInteractiveDismiss.m; sourceTree = "<group>"; };
+		699C27258B2467FE6905A6BA495B393C /* AKTImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTImagePicker.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTImagePicker.h; sourceTree = "<group>"; };
+		6D9FAED13ED7BCE62BE7240DE291B224 /* NSObject+AKT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AKT.m"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSObject+AKT.m"; sourceTree = "<group>"; };
+		753A5CA16C8BCD1EE16A748A37A327CB /* AKTScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTScrollView.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTScrollView.h; sourceTree = "<group>"; };
+		788A386CAE1FAFA76CEED39230FBAE53 /* NSString+AKTFilePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AKTFilePath.m"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSString+AKTFilePath.m"; sourceTree = "<group>"; };
+		7A256A1A7D041E68A686A031E6B62A51 /* AKTAttributeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTAttributeItem.h; path = AKTKit/ARC_File/AKTLayout/AKTAttributeItem.h; sourceTree = "<group>"; };
+		7C5FCA31FBCB7C1F809247B283C9139E /* AKTInteractiveDismiss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTInteractiveDismiss.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTInteractiveDismiss.h; sourceTree = "<group>"; };
+		7E415C94CA3F9CE5B0D96ECEE185CAA3 /* AKTReferenceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTReferenceConfiguration.m; path = AKTKit/ARC_File/AKTLayout/AKTReferenceConfiguration.m; sourceTree = "<group>"; };
+		7FB2A6C11B8A6CAD0739B7E75262C8DD /* NSArray+AKTArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AKTArray.m"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSArray+AKTArray.m"; sourceTree = "<group>"; };
+		850D931AE6564B1E66B8F25C2CFF0274 /* AKTInteractivePop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTInteractivePop.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTInteractivePop.h; sourceTree = "<group>"; };
+		859F6F485FCA4BACAA01E2D60474B358 /* AKTLayoutAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTLayoutAttribute.m; path = AKTKit/ARC_File/AKTLayout/AKTLayoutAttribute.m; sourceTree = "<group>"; };
+		871A17571365A585164B725C7840FF3D /* UIView+AKT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AKT.h"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UIView+AKT.h"; sourceTree = "<group>"; };
+		89D17B79DDA9F5EDEC7152772D298A33 /* Pods-twinkle2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-twinkle2-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E94262CFC2E5D448A7B181ACC9E4324 /* AKTPresentVCAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTPresentVCAnimation.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTPresentVCAnimation.h; sourceTree = "<group>"; };
+		907DC1F5CB8F73F7D34E72EA9176B1EE /* AKTLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKTLayout-prefix.pch"; sourceTree = "<group>"; };
+		90C50BD4827926D24BD53ECE3074FD37 /* AKTLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKTLayout.xcconfig; sourceTree = "<group>"; };
+		92D3923D61492F3FCBFE2A459D0E2DC2 /* AKTInteractivePop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTInteractivePop.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTInteractivePop.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941F93EB192478274298C5153A56DADE /* NSFileManager+AKTFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+AKTFileManager.h"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSFileManager+AKTFileManager.h"; sourceTree = "<group>"; };
+		95D69D10718B3D30395C88CC08C214ED /* libAKTLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAKTLayout.a; path = libAKTLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D66395DDC79C59FBAB1A855F42F668 /* AKTLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKTLayout-dummy.m"; sourceTree = "<group>"; };
+		983EE36C12D323F31F45334B172F184E /* AKTUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTUI.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTUI.h; sourceTree = "<group>"; };
+		986854597115499852E1FAC1AB8CAA3C /* AKTNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTNavigationBar.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTNavigationBar.h; sourceTree = "<group>"; };
+		9F0C250B5482499BD76437536A94608B /* UIImage+AKT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AKT.h"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UIImage+AKT.h"; sourceTree = "<group>"; };
+		A1EBAA4E50109E1264F48D1E3C262E97 /* NSString+AKTFilePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AKTFilePath.h"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSString+AKTFilePath.h"; sourceTree = "<group>"; };
+		AA45599A0FE2C025DF977960D4A0A93E /* AKTNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTNavigationController.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTNavigationController.m; sourceTree = "<group>"; };
+		AA5878220547C30D72E58C5F77914225 /* AKTDismissVCAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTDismissVCAnimation.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTDismissVCAnimation.m; sourceTree = "<group>"; };
+		AEEA203A746648CCB8B9EF186138041B /* AKTReferenceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTReferenceConfiguration.h; path = AKTKit/ARC_File/AKTLayout/AKTReferenceConfiguration.h; sourceTree = "<group>"; };
+		B6B924F94A4EF58E4642AE3AE27B8F07 /* AKTLayoutAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTLayoutAttribute.h; path = AKTKit/ARC_File/AKTLayout/AKTLayoutAttribute.h; sourceTree = "<group>"; };
+		BA09BAD5844FB9390F4DADA823B37FFC /* AKTNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTNavigationBar.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTNavigationBar.m; sourceTree = "<group>"; };
+		C585FEFF53F629D355A80D40AF106664 /* AKTTouchExtendView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTTouchExtendView.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTTouchExtendView.m; sourceTree = "<group>"; };
+		CA5149A5D7A94F14183E97ECE4CA60FE /* UILabel+Akt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Akt.m"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UILabel+Akt.m"; sourceTree = "<group>"; };
+		CA70822700953EF56889B743ED7FA195 /* NSDictionary+AKTDic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AKTDic.m"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSDictionary+AKTDic.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCCC737CC8E94B6EC7B1566D5A2B8368 /* UIImage+AKT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AKT.m"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UIImage+AKT.m"; sourceTree = "<group>"; };
+		CDEE794424913C0F119EB307456C2AB2 /* Pods-twinkle2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-twinkle2-frameworks.sh"; sourceTree = "<group>"; };
+		CF896708D85DE1C480184BA7B50B4D15 /* Pods-twinkle2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-twinkle2.release.xcconfig"; sourceTree = "<group>"; };
+		D0E8406A867B4089C1C2A765B2A828ED /* AKTNaviPushAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTNaviPushAnimation.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTNaviPushAnimation.m; sourceTree = "<group>"; };
+		D42750A127F3B3F8BF787210FF96CA08 /* Pods-twinkle2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-twinkle2.debug.xcconfig"; sourceTree = "<group>"; };
+		D58DC12B4B860675372492A94531D690 /* AKTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTKit.h; path = AKTKit/ARC_File/AKTKit.h; sourceTree = "<group>"; };
+		DCD0A3D86DFE5A011FD7EF4FDD219429 /* AKTNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTNavigationController.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTNavigationController.h; sourceTree = "<group>"; };
+		E124B07196BF1DF37787D86B21A66284 /* AKTViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTViewController.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTViewController.h; sourceTree = "<group>"; };
+		E24795E196A37B50159F1E4DD706C475 /* UIView+ViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ViewAttribute.m"; path = "AKTKit/MRC_File/UIView+ViewAttribute.m"; sourceTree = "<group>"; };
+		E3D2CEC9238001D1FB921A59A86CA5B4 /* NSObject+AKT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AKT.h"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSObject+AKT.h"; sourceTree = "<group>"; };
+		EE36C812B5677882D9EB82DCC9A4DC73 /* AKTTouchExtendView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTTouchExtendView.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTTouchExtendView.h; sourceTree = "<group>"; };
+		F399AF43F9490A43933453F299DCE28E /* AKTViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKTViewController.m; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTViewController/AKTViewController.m; sourceTree = "<group>"; };
+		F4FAD20FE733BAA4EFCFEDF76A075F2D /* AKTNaviPushAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTNaviPushAnimation.h; path = AKTKit/ARC_File/AKTClass/AKTUI/AKTNavitationController/AKTNaviPushAnimation.h; sourceTree = "<group>"; };
+		F63405881FCB1F0F256AE50E15B6D3BD /* NSDictionary+AKTDic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AKTDic.h"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSDictionary+AKTDic.h"; sourceTree = "<group>"; };
+		FA276E7FCD5DA5CC45880867C7E5C1D1 /* NSFileManager+AKTFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+AKTFileManager.m"; path = "AKTKit/ARC_File/AKTCategory/Foundation+Akt/NSFileManager+AKTFileManager.m"; sourceTree = "<group>"; };
+		FCA0FA5073ECE751F9F2F0F45E68A067 /* UIImageView+AKT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AKT.m"; path = "AKTKit/ARC_File/AKTCategory/UIkit+Akt/UIImageView+AKT.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0B1E6C652BDE56D9C75FD064F39805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74849E4AEF2D5003430D0D9E49B52D35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA650D16C92D88A08F851BB3D7ABC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100B39303C46DC229E4FE745C3A055E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3256A03B2C5D04226BB52506B0069A4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90C50BD4827926D24BD53ECE3074FD37 /* AKTLayout.xcconfig */,
+				97D66395DDC79C59FBAB1A855F42F668 /* AKTLayout-dummy.m */,
+				907DC1F5CB8F73F7D34E72EA9176B1EE /* AKTLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKTLayout";
+			sourceTree = "<group>";
+		};
+		3DFB768BB38662A0E24F2451CF9945C8 /* AKTLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7A256A1A7D041E68A686A031E6B62A51 /* AKTAttributeItem.h */,
+				1C5EC869D895AD3E9F5888220FD939F8 /* AKTAttributeItem.m */,
+				4AACDE4E0D3E3F82C14E35836AC4D2EE /* AKTCategory.h */,
+				160BE10776B119EE0558621C59EB8696 /* AKTDismissVCAnimation.h */,
+				AA5878220547C30D72E58C5F77914225 /* AKTDismissVCAnimation.m */,
+				699C27258B2467FE6905A6BA495B393C /* AKTImagePicker.h */,
+				4BCEC6B65AC6B1220FFD80410E9AC90E /* AKTImagePicker.m */,
+				7C5FCA31FBCB7C1F809247B283C9139E /* AKTInteractiveDismiss.h */,
+				67D15977003A3572F5819B40E67184E6 /* AKTInteractiveDismiss.m */,
+				850D931AE6564B1E66B8F25C2CFF0274 /* AKTInteractivePop.h */,
+				92D3923D61492F3FCBFE2A459D0E2DC2 /* AKTInteractivePop.m */,
+				D58DC12B4B860675372492A94531D690 /* AKTKit.h */,
+				B6B924F94A4EF58E4642AE3AE27B8F07 /* AKTLayoutAttribute.h */,
+				859F6F485FCA4BACAA01E2D60474B358 /* AKTLayoutAttribute.m */,
+				5039D4FA97EB9273F4C3734054AE29F0 /* AKTLayoutShell.h */,
+				62BCEA0BAE7308B103A6569FBC73282E /* AKTLayoutShell.m */,
+				986854597115499852E1FAC1AB8CAA3C /* AKTNavigationBar.h */,
+				BA09BAD5844FB9390F4DADA823B37FFC /* AKTNavigationBar.m */,
+				DCD0A3D86DFE5A011FD7EF4FDD219429 /* AKTNavigationController.h */,
+				AA45599A0FE2C025DF977960D4A0A93E /* AKTNavigationController.m */,
+				0B2C43C4878B2C0838B54F9CDAE0ED55 /* AKTNaviPopAnimation.h */,
+				4D9B7D8D3D75EF026B365CFEB8A0BCF9 /* AKTNaviPopAnimation.m */,
+				F4FAD20FE733BAA4EFCFEDF76A075F2D /* AKTNaviPushAnimation.h */,
+				D0E8406A867B4089C1C2A765B2A828ED /* AKTNaviPushAnimation.m */,
+				8E94262CFC2E5D448A7B181ACC9E4324 /* AKTPresentVCAnimation.h */,
+				659D183F4E358DCDE2E01D58018C735B /* AKTPresentVCAnimation.m */,
+				4BB905C3D104C212D56F6D60F23A5762 /* AKTPublic.h */,
+				26C8114CF6A0410F501AF8C2E4A33548 /* AKTPublic.m */,
+				AEEA203A746648CCB8B9EF186138041B /* AKTReferenceConfiguration.h */,
+				7E415C94CA3F9CE5B0D96ECEE185CAA3 /* AKTReferenceConfiguration.m */,
+				753A5CA16C8BCD1EE16A748A37A327CB /* AKTScrollView.h */,
+				59847CE015D66696A7A6ECF2CA722745 /* AKTScrollView.m */,
+				EE36C812B5677882D9EB82DCC9A4DC73 /* AKTTouchExtendView.h */,
+				C585FEFF53F629D355A80D40AF106664 /* AKTTouchExtendView.m */,
+				983EE36C12D323F31F45334B172F184E /* AKTUI.h */,
+				E124B07196BF1DF37787D86B21A66284 /* AKTViewController.h */,
+				F399AF43F9490A43933453F299DCE28E /* AKTViewController.m */,
+				16D40EA119236009557686716E979786 /* NSArray+AKTArray.h */,
+				7FB2A6C11B8A6CAD0739B7E75262C8DD /* NSArray+AKTArray.m */,
+				F63405881FCB1F0F256AE50E15B6D3BD /* NSDictionary+AKTDic.h */,
+				CA70822700953EF56889B743ED7FA195 /* NSDictionary+AKTDic.m */,
+				941F93EB192478274298C5153A56DADE /* NSFileManager+AKTFileManager.h */,
+				FA276E7FCD5DA5CC45880867C7E5C1D1 /* NSFileManager+AKTFileManager.m */,
+				E3D2CEC9238001D1FB921A59A86CA5B4 /* NSObject+AKT.h */,
+				6D9FAED13ED7BCE62BE7240DE291B224 /* NSObject+AKT.m */,
+				A1EBAA4E50109E1264F48D1E3C262E97 /* NSString+AKTFilePath.h */,
+				788A386CAE1FAFA76CEED39230FBAE53 /* NSString+AKTFilePath.m */,
+				9F0C250B5482499BD76437536A94608B /* UIImage+AKT.h */,
+				CCCC737CC8E94B6EC7B1566D5A2B8368 /* UIImage+AKT.m */,
+				1D534ABC0CCD08AC6E71C7DA6D32B4B2 /* UIImageView+AKT.h */,
+				FCA0FA5073ECE751F9F2F0F45E68A067 /* UIImageView+AKT.m */,
+				54D7B8F9C7208480DABBBF515FB25D0D /* UILabel+Akt.h */,
+				CA5149A5D7A94F14183E97ECE4CA60FE /* UILabel+Akt.m */,
+				871A17571365A585164B725C7840FF3D /* UIView+AKT.h */,
+				45CFC6F9BDF4F5308829F27A2CCEBA6B /* UIView+AKT.m */,
+				3E98E3021E2340CFF4A92889BDE65AEB /* UIView+AKTLayout.h */,
+				6167735EBF045D0AF601FDB83D61FDCD /* UIView+AKTLayout.m */,
+				26FF6081E423B3E4A5C94391AE057484 /* UIView+ViewAttribute.h */,
+				E24795E196A37B50159F1E4DD706C475 /* UIView+ViewAttribute.m */,
+				3256A03B2C5D04226BB52506B0069A4F /* Support Files */,
+			);
+			name = AKTLayout;
+			path = AKTLayout;
+			sourceTree = "<group>";
+		};
+		5A3957AEA003DF80E146FAD02DA40468 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C626507AC5663B7BF59A9B31D3F19B /* Pods-twinkle2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B8C0B1937DE9E3559368C520BB3F08E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB768BB38662A0E24F2451CF9945C8 /* AKTLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7B8C0B1937DE9E3559368C520BB3F08E /* Pods */,
+				BADE86C9B68A6804B0DA930AA172874A /* Products */,
+				5A3957AEA003DF80E146FAD02DA40468 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C626507AC5663B7BF59A9B31D3F19B /* Pods-twinkle2 */ = {
+			isa = PBXGroup;
+			children = (
+				0779A01E532693F7B65A8F94DC0E09BF /* Pods-twinkle2-acknowledgements.markdown */,
+				89D17B79DDA9F5EDEC7152772D298A33 /* Pods-twinkle2-acknowledgements.plist */,
+				0B5D49A42854F481A283102E94DB23CE /* Pods-twinkle2-dummy.m */,
+				CDEE794424913C0F119EB307456C2AB2 /* Pods-twinkle2-frameworks.sh */,
+				4F9194C650316F304AFD12058BD9BA91 /* Pods-twinkle2-resources.sh */,
+				D42750A127F3B3F8BF787210FF96CA08 /* Pods-twinkle2.debug.xcconfig */,
+				CF896708D85DE1C480184BA7B50B4D15 /* Pods-twinkle2.release.xcconfig */,
+			);
+			name = "Pods-twinkle2";
+			path = "Target Support Files/Pods-twinkle2";
+			sourceTree = "<group>";
+		};
+		BADE86C9B68A6804B0DA930AA172874A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D69D10718B3D30395C88CC08C214ED /* libAKTLayout.a */,
+				4B50AAFF35D57F3D3FF346E4B4E3C7D0 /* libPods-twinkle2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3852FA2C773F211602156A8C0B49C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71ED8D74878C66923A7D25935CB17B39 /* AKTAttributeItem.h in Headers */,
+				B79BAEC193B682DF3DF1E38542F80DA1 /* AKTCategory.h in Headers */,
+				A6AD61D03CF24464BFCE57E64DCFF055 /* AKTDismissVCAnimation.h in Headers */,
+				E582EE161FB2E91D92252AEC6B324244 /* AKTImagePicker.h in Headers */,
+				7DE86D164B727CA61611B78AD18F3B68 /* AKTInteractiveDismiss.h in Headers */,
+				8E80BDFC4D52B10FA21A27AEC048C5A1 /* AKTInteractivePop.h in Headers */,
+				AC607F6D52216AC53FC873CEC3B33419 /* AKTKit.h in Headers */,
+				DC03FE08294670DD49A875CADC2C5E81 /* AKTLayoutAttribute.h in Headers */,
+				93648BEFF48C773BA57B8B6D170973E7 /* AKTLayoutShell.h in Headers */,
+				DCEE17CF6EA91AE445BBEE90A8BDCCED /* AKTNavigationBar.h in Headers */,
+				1A1B23FF10CEB43186E1629F1F10ED7C /* AKTNavigationController.h in Headers */,
+				7F7E42494F30A7A8C7E01333C5119EB4 /* AKTNaviPopAnimation.h in Headers */,
+				068268E615AB36F9F4D636497D21047A /* AKTNaviPushAnimation.h in Headers */,
+				FCF95A846DF271531599E0618BA432DB /* AKTPresentVCAnimation.h in Headers */,
+				3A5EFF5F03A2492FF35B46BCF244459F /* AKTPublic.h in Headers */,
+				09742DA27C59A11F81A0BD562739A37E /* AKTReferenceConfiguration.h in Headers */,
+				98BC6EB6A155DAED08686C6EA46269F1 /* AKTScrollView.h in Headers */,
+				71E92B603591D6E221D9C4055DFFC4A3 /* AKTTouchExtendView.h in Headers */,
+				E23C478511D0CA43C5E09649D2E707F3 /* AKTUI.h in Headers */,
+				052B33461D0E12CD9128C3147E88A799 /* AKTViewController.h in Headers */,
+				D4F48EBE416F92C8BB7F9EC230E4940C /* NSArray+AKTArray.h in Headers */,
+				882BF64D268F9C8A4DF33E78C01276BC /* NSDictionary+AKTDic.h in Headers */,
+				C217BEE36EA0DF7E8D5D94A2A812C518 /* NSFileManager+AKTFileManager.h in Headers */,
+				8C3145526C4EA8A52B6E5E286C154C99 /* NSObject+AKT.h in Headers */,
+				ACDC843BAFA6A559CD8420FE598F3F6D /* NSString+AKTFilePath.h in Headers */,
+				86FBC33A0FE6F726A189636A6ED39E2E /* UIImage+AKT.h in Headers */,
+				35C84C8F01ECF36F8F7B8923DE226FAC /* UIImageView+AKT.h in Headers */,
+				7DEF1A2F81357C9844231814937F79C7 /* UILabel+Akt.h in Headers */,
+				0D695B834AAD9946EEB27314BB046CA6 /* UIView+AKT.h in Headers */,
+				DE9B28826828334B7F48B38E62431A21 /* UIView+AKTLayout.h in Headers */,
+				A5AB092585B26B33196BBB709D1A0E94 /* UIView+ViewAttribute.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13D010933670F261CBC8CD4AA096159D /* AKTLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B653F817FD7D8B756A51579F29F325 /* Build configuration list for PBXNativeTarget "AKTLayout" */;
+			buildPhases = (
+				CAF25CFFA077A52B268374F331C9E17F /* Sources */,
+				CDA650D16C92D88A08F851BB3D7ABC39 /* Frameworks */,
+				C3852FA2C773F211602156A8C0B49C48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKTLayout;
+			productName = AKTLayout;
+			productReference = 95D69D10718B3D30395C88CC08C214ED /* libAKTLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7756532A4E0AA51CD4F7745CD17ADF52 /* Pods-twinkle2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622F805DF0852F5379F7D2E1DFCA66BE /* Build configuration list for PBXNativeTarget "Pods-twinkle2" */;
+			buildPhases = (
+				6BBCC4756F54695C26BD4C5C53942F3A /* Sources */,
+				6B0B1E6C652BDE56D9C75FD064F39805 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B46C3FC92B13751090BAE272322690 /* PBXTargetDependency */,
+			);
+			name = "Pods-twinkle2";
+			productName = "Pods-twinkle2";
+			productReference = 4B50AAFF35D57F3D3FF346E4B4E3C7D0 /* libPods-twinkle2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BADE86C9B68A6804B0DA930AA172874A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D010933670F261CBC8CD4AA096159D /* AKTLayout */,
+				7756532A4E0AA51CD4F7745CD17ADF52 /* Pods-twinkle2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BBCC4756F54695C26BD4C5C53942F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B8B482BC56C47D2D814AD983A48EEB /* Pods-twinkle2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF25CFFA077A52B268374F331C9E17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CF0E876380284E849C47F429741707 /* AKTAttributeItem.m in Sources */,
+				32CEF5BC0F569DCC90D22E4D4AEF6F04 /* AKTDismissVCAnimation.m in Sources */,
+				D0F58646D717C56F522DEC860B5C87F1 /* AKTImagePicker.m in Sources */,
+				74AC19A8878BBCC9B7FC37F52F01E379 /* AKTInteractiveDismiss.m in Sources */,
+				5D88B1AB461309056A0790CAFA681725 /* AKTInteractivePop.m in Sources */,
+				DA210861A91E8255490F1110CED36731 /* AKTLayout-dummy.m in Sources */,
+				8D0437B85CB5C2BD531D23B64B34383B /* AKTLayoutAttribute.m in Sources */,
+				6A570ACC16AC5D83E9969806D4373F93 /* AKTLayoutShell.m in Sources */,
+				BB9C9087713BBCE0FAA748FE883A058D /* AKTNavigationBar.m in Sources */,
+				041879335645C68C25A3D08E878720BF /* AKTNavigationController.m in Sources */,
+				E55E0E2DF1494231933683A2F19B22CD /* AKTNaviPopAnimation.m in Sources */,
+				8669E31531058EEF2E116CAAAD3B3AF7 /* AKTNaviPushAnimation.m in Sources */,
+				BE63E39B36312447D9B898581390B343 /* AKTPresentVCAnimation.m in Sources */,
+				CE0EE5F57D033F6B4A69F8CCB2D9C318 /* AKTPublic.m in Sources */,
+				B182C63159C425E9A75A0BADDBF0491E /* AKTReferenceConfiguration.m in Sources */,
+				BD948C2F8FF63CE982AA15A6986FED53 /* AKTScrollView.m in Sources */,
+				E33F30FC366A6B4204C3347122A55671 /* AKTTouchExtendView.m in Sources */,
+				0D1E95C85F96D5ED1E78EF989CC4A5CB /* AKTViewController.m in Sources */,
+				49FF40B37396EF10A1B022374E600645 /* NSArray+AKTArray.m in Sources */,
+				D788ADED8E141B69CA36C7B5351B522E /* NSDictionary+AKTDic.m in Sources */,
+				C9BD36FBFDA35FD12B2D5EDD93DE578C /* NSFileManager+AKTFileManager.m in Sources */,
+				ADA82D327B3705C6C4AC109CDB534FCA /* NSObject+AKT.m in Sources */,
+				5C6F7915B81249FD8057DB4DC4303691 /* NSString+AKTFilePath.m in Sources */,
+				8A69137F7507E1C6A5E92F4055F5E211 /* UIImage+AKT.m in Sources */,
+				7BB02557427EE13E870E172485EC01E2 /* UIImageView+AKT.m in Sources */,
+				8937FA150EFB6DA15570F28851F799BE /* UILabel+Akt.m in Sources */,
+				6CF20F20ED06EB9C3AE00391C0C5E8B5 /* UIView+AKT.m in Sources */,
+				8F054F03A5306BCE6E739941A7D3DDCD /* UIView+AKTLayout.m in Sources */,
+				5B65E16C081AFF6BC4A835FA8399C90E /* UIView+ViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B46C3FC92B13751090BAE272322690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKTLayout;
+			target = 13D010933670F261CBC8CD4AA096159D /* AKTLayout */;
+			targetProxy = AAAF86EDEAA384611164F8535EE18AB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1FECB595F0B8E2E23A02CA8E11DB6356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF896708D85DE1C480184BA7B50B4D15 /* Pods-twinkle2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		41BE9834F80173A1AE6602E0B5C25F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C50BD4827926D24BD53ECE3074FD37 /* AKTLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKTLayout/AKTLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		906F2E5998C25E36E54A77FFC9E826E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42750A127F3B3F8BF787210FF96CA08 /* Pods-twinkle2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE08E8E789B0E9414ED8BC9662EBD11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C50BD4827926D24BD53ECE3074FD37 /* AKTLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKTLayout/AKTLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622F805DF0852F5379F7D2E1DFCA66BE /* Build configuration list for PBXNativeTarget "Pods-twinkle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906F2E5998C25E36E54A77FFC9E826E6 /* Debug */,
+				1FECB595F0B8E2E23A02CA8E11DB6356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B653F817FD7D8B756A51579F29F325 /* Build configuration list for PBXNativeTarget "AKTLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE08E8E789B0E9414ED8BC9662EBD11D /* Debug */,
+				41BE9834F80173A1AE6602E0B5C25F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

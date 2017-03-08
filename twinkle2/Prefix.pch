@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'iphone' target in the 'iphone' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#define TLog(fmt,...) NSLog((@"%s:%d " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define TError(fmt,...) NSLog((@"error:%s:%d " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define TInfo(fmt,...) NSLog((@"info:%s:%d " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
